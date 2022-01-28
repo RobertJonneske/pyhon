@@ -1,0 +1,5 @@
+#user input, input()
+hours=int(input("Enter hours:"))
+rate=float(input("Enter rate:"))
+grossPay=("hours*rate*pay:")
+print(grossPay)
