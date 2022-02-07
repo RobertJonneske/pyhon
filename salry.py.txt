@@ -1,0 +1,11 @@
+salary=float(input("enter salary"))
+years=float(input("enter year"))
+if years>10:
+  bonus=0.1*salary
+  print(bonus)
+if years<6:
+  bonus=salary*0.5
+  print(bonus)
+if years>=6 <=10:
+  bonus=0.08*salary
+  print(bonus)
